@@ -42,10 +42,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px;
-    background-color: rgba(18, 18, 18, 0.5);
+    background-color: #12121280;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #00000033;
 }
 
 nav h2 {
@@ -83,4 +83,32 @@ nav h2 {
     display: flex;
     align-items: center;
     margin-left: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #353534cc;
+    color: #C5A028;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.back-to-top span {
+    font-size: 24px;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
 }

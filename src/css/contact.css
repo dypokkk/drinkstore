@@ -1,0 +1,139 @@
+.section_1 {
+    display: flex;
+}
+
+.section_1_form {
+    width: 50%;
+    height: 600px;
+    margin: 40px;
+    background-color: #0e0e0e;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_1_form textarea {
+    flex-direction: column;
+    display: flex;
+    background: #22222200;
+    color: #f4f4f4;
+    border: none;
+    border-bottom: 1px solid #4d46358c;
+    padding: 12px 15px;
+    font-family: "Noto Serif", serif;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    resize: none;
+    height: 120px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+
+.section_1_form textarea:focus {
+    border-bottom: 1px solid #D4AF37;
+}
+
+.section_1_select {
+    margin-bottom: 40px;
+}
+
+.section_1_select select {
+    display: flex;
+    flex-direction: column;
+    background: #22222200;
+    color: #f4f4f4;
+    border: none;
+    border-bottom: 1px solid #4d46358c;
+    padding: 12px 15px;
+    font-family: "Noto Serif", serif;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+.section_1_select select:focus {
+    border-bottom: 1px solid #D4AF37;
+}
+
+.section_1_select select option {
+    background: #121212;
+    color: #f4f4f4;
+    font-family: "Manrope", serif;
+    font-size: 14px;
+}
+
+.section_1_form_labels {
+    display: flex;
+    align-items: center;
+}
+
+.section_1_form_email input {
+    display: flex;
+    flex-direction: column;
+    background: #22222200;
+    color: #f4f4f4;
+    border: none;
+    border-bottom: 1px solid #4d46358c;
+    padding: 12px 15px;
+    font-family: "Noto Serif", serif;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.section_1_form_email input:focus {
+    border-bottom: 1px solid #D4AF37;
+}
+
+.section_1_form_name input {
+    display: flex;
+    flex-direction: column;
+    background: #22222200;
+    color: #f4f4f4;
+    border: none;
+    border-bottom: 1px solid #4d46358c;
+    padding: 12px 15px;
+    font-family: "Noto Serif", serif;
+    font-size: 14px;
+    outline: none;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.section_1_form_name input:focus {
+    border-bottom: 1px solid #D4AF37;
+}
+
+.section_1_form_info {
+    margin: 60px;
+}
+
+.primary_button {
+    padding: 16px 32px;
+    background-color: #D4AF37;
+    border: none;
+    color: #121212;
+    font-family: "Manrope", sans-serif;
+}
+
+.primary_button:hover {
+    box-shadow: 0 0 12px 5px #c5a0284d;
+    transition: box-shadow 0.4s ease;
+}
+
+.section_1_info_minibox {
+    width: 350px;
+    height: 120px;
+    border-left: 1px solid #4d46358c;
+}
+
+.section_1_info_minibox:hover {
+    border-left: 1px solid #D4AF37;
+}
+
+.section_1_info_content {
+    margin-left: 30px;
+}
