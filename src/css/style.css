@@ -112,3 +112,49 @@ html {
 .back-to-top:hover {
     transform: translateY(-5px);
 }
+
+.footer_links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-right: 48px;
+}
+
+.footer_links_a {
+    color: #878787;
+    font-family: "Noto Serif", serif;
+}
+
+.footer_links_a:hover {
+    color: #C5A028;
+}
+
+.footer_links img {
+    width: 20px;
+}
+
+.footer_links img path:hover {
+    stroke: #C5A028 !important;
+    fill: #C5A028 !important;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e0e0e;
+    height: 400px;
+}
+
+footer h3 {
+    font-size: 30px;
+    color: #C5A028;
+    font-family: "Noto Serif", serif;
+}
+
+footer p {
+    color: #878787;
+    font-family: "Manrope", sans-serif;
+}
