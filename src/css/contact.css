@@ -137,3 +137,7 @@
 .section_1_info_content {
     margin-left: 30px;
 }
+
+.section_1_info_content a:hover {
+    color: #D4AF37;
+}
