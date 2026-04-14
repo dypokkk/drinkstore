@@ -1,5 +1,37 @@
-.section_1 {
-    height: 800px;
-    background-image: url('../imgs/shop_wines.png');
-    co
+.primary_button {
+    padding: 16px 32px;
+    background-color: #D4AF37;
+    border: none;
+    color: #121212;
+    font-family: "Manrope", sans-serif;
 }
+
+.section_1 {
+    height: 600px;
+    background-image: linear-gradient(to top, #00000080, 60%, #00000080), url('../imgs/tragoooo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+}
+
+.section_1 h1 {
+    font-size: 80px;
+}
+
+.section_1 p {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+.section_1 h4 {
+    margin-bottom: -40px;
+}
+
+.section_2 {
+    display: flex;
+}
+
+
