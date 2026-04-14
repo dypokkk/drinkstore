@@ -32,7 +32,3 @@ Victoria Sutachan Developer.
 Cristian Ortiz Developer.
 
 Desarrollado con enfoque en precisión técnica y diseño centrado en el humano.
-
-```
-
-```
