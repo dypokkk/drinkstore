@@ -33,17 +33,6 @@ Cristian Ortiz Developer.
 
 Desarrollado con enfoque en precisión técnica y diseño centrado en el humano.
 
-### ¿Cómo agregarlo a tu proyecto?
-
-1. En la raíz de tu proyecto local, crea un archivo nuevo llamado `README.md`.
-2. Pega el contenido anterior.
-3. Guarda y sube los cambios a tu repo:
-   ```bash
-   git add README.md
-   git commit -m "docs: add professional readme"
-   git push origin main
-   ```
-
 ```
 
 ```
