@@ -1,0 +1,67 @@
+.fondo_seccion {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/12/35/89/123589e03c899103253c36912c6a2186.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_seccion p {
+    color: #F8F8F8;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    text-shadow: 1px 1px 2px #000000cc;
+    font-weight: bold;
+}
+
+.fondo_seccion a {
+    color: #faf9f5;
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #855a05ef;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.fondo_seccion a:hover {
+    background-color: #C5A028;
+    color: #0e0e0e;
+}
+
+.fondo_seccion h1 {
+    color: #F8F8F8;
+    font-family: "Noto Serif", serif;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px #000000cc;
+}
+
+.section_2 p {
+    color: #fcfbfb;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.right_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.primera_imagen {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.section_2 {
+    display: flex;
+}
+
